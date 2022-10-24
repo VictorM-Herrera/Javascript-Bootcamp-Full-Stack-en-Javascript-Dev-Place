@@ -61,7 +61,7 @@ window.alert(aux);
 let numero3=prompt("ingrese un numero: ");
 for(let i =0; i<=numero3; i++)
 {
-    if( i/3 % 2)
+    if( i%3 == 2)
     {
         console.log(i);
     }
