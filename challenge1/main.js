@@ -16,7 +16,7 @@ switch (parseInt(creditos)) {
     console.log( "Usted tiene acceso a las sig. salas: Consolas, Juegos 2D, Juegos 3D");
     break;
   case 4:
-    console.log("Usted tiene acceso a las sig. salas: Consolas, Juegos 2D, Realidad Virtual");
+    console.log("Usted tiene acceso a las sig. salas: Consolas, Juegos 2D, Juegos 3D, Realidad Virtual");
     break;
     default:
         console.log("Opcion ingresada incorrecta");
@@ -27,22 +27,24 @@ let op=prompt("Ingrese la opcion adecuada: \n" + "1. Gasolina\n" + "2. Diesel\n"
 //USO IF COMO EJEMPLO
 if(op== "1" || op=="Gasolina")
 {
-    window.alert("dirijase a la oficina 100");
+    alert("dirijase a la oficina 100");
 }else if(op== "2" || op=="Diesel")
 {
-    window.alert("dirijase a la oficina 200");
+    alert("dirijase a la oficina 200");
 }else if(op== "3" || op=="Electronico"){
-    window.alert("dirijase a la oficina 300");
+    alert("dirijase a la oficina 300");
+}else{
+
 }
 //PUNTO 4:
 let numero= parseInt(prompt("Ingrese un valor para el descuento: "));
 if(numero < 100)
 {
     window.alert("No gracias");
-}else if(numero > 100 && numero < 300)
+}else if(numero > 100 && numero <= 300)
 {
     window.alert("Con el descuento del 5%: " + (numero - (numero * 0.05)));
-}else if(numero > 300 && numero < 400)
+}else if(numero > 300 && numero <= 400)
 {   
     window.alert("Con el descuento del 10%: " + (numero - (numero * 0.10)));
 }else{
@@ -68,7 +70,7 @@ for(let i =0; i<=numero3; i++)
 }
 //PUNTO 7:
 var acumulador=0;
-for(let i=0; i=4; i++)
+for(let i=0; i<4; i++)
 {
     acumulador+= parseInt(prompt("Ingrese un numero: (ej7)"));
 }
