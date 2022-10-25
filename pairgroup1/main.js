@@ -27,8 +27,7 @@ do {
 
 //crear una funcion que pida 2 numeros por parametro y los sume.
 function sumaNumeros(num1, num2) {
-    let rta
-    return rta= num1 + num2;
+    return num1 + num2;
 }
 
 //hacer un bucle en el que el usuario ingrese N cantidad de numeros y devuelva el promedio
