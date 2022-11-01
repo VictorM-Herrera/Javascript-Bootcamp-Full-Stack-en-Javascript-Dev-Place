@@ -28,7 +28,10 @@ function compruebaTextMayusMinus(string)
     }else{
         txt="lA CaDeNA ES unA mescLa de AmBOS";
     }
+    return txt;
 }
+
+
 
 //punto 4:
 let numero= parseInt(prompt("Ingrese un numero para el factorial"));
