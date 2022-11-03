@@ -1,4 +1,4 @@
-class Agenda {
+class Agenda{
     listaUsuarios;
     constructor() {
         this.listaUsuarios = [];
